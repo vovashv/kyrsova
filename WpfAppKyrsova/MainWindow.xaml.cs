@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using WpfAppKyrsova.Models;
 
 namespace WpfAppKyrsova
 {
@@ -23,6 +24,17 @@ namespace WpfAppKyrsova
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void BtnCancel_Click(object sender, RoutedEventArgs e)
+        {
+            this.Close();
+        }
+
+        private void BtnEnter_Click(object sender, RoutedEventArgs e)
+        {
+            StartWindowTest startWindowTest = new StartWindowTest();
+            startWindowTest.Show();
         }
     }
 }

@@ -13,8 +13,8 @@
         <TextBox x:Name="txtSurName" HorizontalAlignment="Left" Height="23" Margin="145,90,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="250"/>
         <TextBlock x:Name="textBlockGroup" HorizontalAlignment="Left" Margin="49,131,0,0" TextWrapping="Wrap" Text="Група" VerticalAlignment="Top" RenderTransformOrigin="-0.312,-3.625"/>
         <TextBox x:Name="txtGroup" HorizontalAlignment="Left" Height="23" Margin="145,124,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="205"/>
-        <Button x:Name="btnEnter" Content="Розпочати тест" HorizontalAlignment="Left" Margin="74,200,0,0" VerticalAlignment="Top" Width="96" Background="Yellow"/>
-        <Button x:Name="btnCancel" Content="Вихід" HorizontalAlignment="Left" Margin="320,200,0,0" VerticalAlignment="Top" Width="75" Background="Gray"/>
+        <Button x:Name="btnEnter" Content="Розпочати тест" HorizontalAlignment="Left" Margin="74,200,0,0" VerticalAlignment="Top" Width="96" Background="Yellow" Click="BtnEnter_Click"/>
+        <Button x:Name="btnCancel" Content="Вихід" HorizontalAlignment="Left" Margin="320,200,0,0" VerticalAlignment="Top" Width="75" Background="Gray" Click="BtnCancel_Click"/>
 
 
     </Grid>
