@@ -1,0 +1,21 @@
+﻿<Window x:Class="WpfAppKyrsova.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfAppKyrsova"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="300" Width="450">
+    <Grid Background="Green">
+        <TextBlock x:Name="textBlockName" HorizontalAlignment="Left" Margin="49,56,0,0" TextWrapping="Wrap" Text="Ім'я" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtName" HorizontalAlignment="Left" Height="23" Margin="145,56,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="250"/>
+        <TextBlock x:Name="textBlockSurName" HorizontalAlignment="Left" Margin="49,90,0,0" TextWrapping="Wrap" Text="Прізвище" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtSurName" HorizontalAlignment="Left" Height="23" Margin="145,90,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="250"/>
+        <TextBlock x:Name="textBlockGroup" HorizontalAlignment="Left" Margin="49,131,0,0" TextWrapping="Wrap" Text="Група" VerticalAlignment="Top" RenderTransformOrigin="-0.312,-3.625"/>
+        <TextBox x:Name="txtGroup" HorizontalAlignment="Left" Height="23" Margin="145,124,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="205"/>
+        <Button x:Name="btnEnter" Content="Розпочати тест" HorizontalAlignment="Left" Margin="74,200,0,0" VerticalAlignment="Top" Width="96" Background="Yellow"/>
+        <Button x:Name="btnCancel" Content="Вихід" HorizontalAlignment="Left" Margin="320,200,0,0" VerticalAlignment="Top" Width="75" Background="Gray"/>
+
+
+    </Grid>
+</Window>
